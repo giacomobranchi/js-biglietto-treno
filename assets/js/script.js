@@ -13,9 +13,9 @@ console.log(age, distance);
 
 let price
 
-if (age<18) {
+if (age < 18) {
     price = distance * 0.21 * 0.8
-} else if (age>65) {
+} else if (age > 65) {
     price = distance * 0.21 * 0.6
 } else {
     price = distance * 0.21
